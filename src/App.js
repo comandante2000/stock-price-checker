@@ -13,7 +13,7 @@ function App() {
   const [stockPrice, setStockPrice] = useState(null);
   const [error, setError] = useState("");
   const [symbols, setSymbols] = useState([]);
-  const API_KEY = process.env.REACT_APP_API_KEY;
+  const API_KEY = "cqqs1cpr01qor5ighnvgcqqs1cpr01qor5igho00";
 
   useEffect(() => {
     const fetchSymbols = async () => {
